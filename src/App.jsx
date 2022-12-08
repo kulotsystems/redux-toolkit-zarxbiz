@@ -2,6 +2,7 @@ import {useState} from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import { Counter } from './features/counter/Counter.jsx';
+import { Post } from './features/post/Post.jsx';
 
 function App() {
     return (
@@ -13,6 +14,8 @@ function App() {
             </div>
             <h1>Redux Toolkit Tutorial</h1>
             <Counter/>
+            <hr style={{marginTop: '15px', marginBottom: '15px'}}/>
+            <Post/>
         </div>
     )
 }
