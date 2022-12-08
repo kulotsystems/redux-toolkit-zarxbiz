@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import { Counter } from './features/counter/Counter.jsx';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 </a>
             </div>
             <h1>Redux Toolkit Tutorial</h1>
+            <Counter/>
         </div>
     )
 }
