@@ -11,7 +11,7 @@ export function Post() {
             <div>
                 <ol>
                     {post.map((p) => (
-                        <li>{p.title}</li>
+                        <li key={p.id}>{p.title}</li>
                     ))}
                 </ol>
                 <button
